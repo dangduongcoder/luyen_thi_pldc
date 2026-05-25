@@ -1,17 +1,7 @@
 // src/routes/api/questions/+server.ts
 import type { RequestHandler } from './$types';
 import { json } from '@sveltejs/kit';
-import { readFile } from 'fs/promises';
-import path from 'path';
-
-/**
- * Load all questions from the JSON file located in src/data/questions.json.
- */
-async function loadQuestions() {
-  const filePath = path.resolve('src/data/questions.json');
-  const data = await readFile(filePath, { encoding: 'utf-8' });
-  return JSON.parse(data);
-}
+import allQuestions from '$lib/../data/questions.json';
 
 /**
  * GET handler for /api/questions
@@ -20,7 +10,6 @@ async function loadQuestions() {
  *   - ids: comma‑separated list of question IDs to fetch specific ones
  */
 export const GET: RequestHandler = async ({ url }) => {
-  const allQuestions = await loadQuestions();
   const countParam = url.searchParams.get('count');
   const idsParam = url.searchParams.get('ids');
 
