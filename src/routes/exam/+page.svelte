@@ -8,7 +8,7 @@
   let showConfirmSubmit = $state(false);
 
   onMount(() => {
-    currentExam.subscribe(value => {
+    const unsubscribe = currentExam.subscribe(value => {
       if (!value && !examData) {
         goto('/');
       } else if (value && !examData) {
@@ -16,6 +16,7 @@
         startTimer();
       }
     });
+    return unsubscribe;
   });
 
   onDestroy(() => {

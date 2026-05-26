@@ -11,7 +11,7 @@
   let copiedId: number | null = $state(null);
 
   onMount(() => {
-    currentExam.subscribe(value => {
+    const unsubscribe = currentExam.subscribe(value => {
       if (!value || !value.isFinished) {
         goto('/');
       } else {
@@ -28,6 +28,7 @@
         timeSpent = resultData.totalTime - resultData.timeRemaining;
       }
     });
+    return unsubscribe;
   });
 
   function formatTime(seconds: number) {
