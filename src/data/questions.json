@@ -572,17 +572,6 @@
     "correct_answer": "C"
   },
   {
-    "id": 53,
-    "question": "Điền từ vào chỗ trống:",
-    "options": {
-      "C": "Bốn",
-      "A": "Hai",
-      "B": "Ba",
-      "D": "Năm"
-    },
-    "correct_answer": "B"
-  },
-  {
     "id": 54,
     "question": "Ở Việt Nam, cơ quan nào sau đây có thẩm quyền quyết định đại xá?",
     "options": {
@@ -2151,17 +2140,6 @@
       "B": "Nhà nước Rôma",
       "C": "Nhà nước Chămpa",
       "D": "Các nhà nước phương Đông"
-    },
-    "correct_answer": "B"
-  },
-  {
-    "id": 197,
-    "question": "Theo học thuyết Mác – Lênin, nhận định nào sau đây là đúng: thay đổi qua các kiểu nhà nước khác nhau nhà nước khác nhau kiểu nhà nước khác nhau nước là không đổi qua các kiểu nhà nước khác nhau",
-    "options": {
-      "A": "Tính chất giai cấp của nhà nước không đổi nhưng bản chất của nhà nước thì",
-      "B": "Tính chất giai cấp và bản chất của nhà nước không thay đổi qua các kiểu",
-      "C": "Tính chất giai cấp và bản chất của nhà nước luôn luôn thay đổi qua các",
-      "D": "Tính chất giai cấp của nhà nước luôn luôn thay đổi, còn bản chất của nhà"
     },
     "correct_answer": "B"
   },
