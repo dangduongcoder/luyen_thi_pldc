@@ -2771,17 +2771,6 @@
     "correct_answer": "D"
   },
   {
-    "id": 255,
-    "question": "Việc làm là…? A. Mọi hoạt động lao động trong cơ quan Nhà nước",
-    "options": {
-      "A": "Mọi hoạt động lao động trong cơ quan Nhà nước",
-      "B": "Mọi hoạt động lao động tạo ra thu nhập",
-      "C": "Mọi hoạt động lao động tạo ra nguồn thu nhập không bị pháp luật cấm",
-      "D": "Tất cả đều đúng"
-    },
-    "correct_answer": "C"
-  },
-  {
     "id": 256,
     "question": "Nội dung nào dưới đây là một trong những nghĩa vụ của nhà sản xuất, kinh doanh phải thực hiện…?",
     "options": {
